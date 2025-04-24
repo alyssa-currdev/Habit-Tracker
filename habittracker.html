@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header class="bg-light border-bottom mb-4">
+    <nav class="navbar navbar-expand-lg navbar-light container">
+        <a class="navbar-brand" href="index.html">HabitTracker</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="habittracker.html">Tracker</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <main class="container">
+        <section class="text-center">
+            <h1>🗓️ Weekly Habit Tracker</h1>
+            <p>Check off your daily progress for each habit.</p>
+        </section>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Drink Water
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row text-center mb-3">
+                            <div class="col day-label">Sun</div>
+                            <div class="col day-label">Mon</div>
+                            <div class="col day-label">Tue</div>
+                            <div class="col day-label">Wed</div>
+                            <div class="col day-label">Thu</div>
+                            <div class="col day-label">Fri</div>
+                            <div class="col day-label">Sat</div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Exercise
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row text-center mb-3">
+                            <div class="col day-label">Sun</div>
+                            <div class="col day-label">Mon</div>
+                            <div class="col day-label">Tue</div>
+                            <div class="col day-label">Wed</div>
+                            <div class="col day-label">Thu</div>
+                            <div class="col day-label">Fri</div>
+                            <div class="col day-label">Sat</div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Meditate
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row text-center mb-3">
+                            <div class="col day-label">Sun</div>
+                            <div class="col day-label">Mon</div>
+                            <div class="col day-label">Tue</div>
+                            <div class="col day-label">Wed</div>
+                            <div class="col day-label">Thu</div>
+                            <div class="col day-label">Fri</div>
+                            <div class="col day-label">Sat</div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                            <div class="col"><input type="checkbox"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-center">
+        <small>&copy; 2025 HabitTracker</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
